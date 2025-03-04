@@ -197,7 +197,7 @@ $(document).ready(function () {
             end: new Date('Aug 30, 2026 00:00'),
 
             // Event Address
-            address: 'Altholz 6, 94447 Plattling',
+            address: 'Gut Altholz Landhotel und Restaurant Hutter oHG, Altholz 6, 94447 Plattling, Deutschland',
 
             // Event Description
             description: "Wir können es nicht erwarten dich an unserem großen Tag zu treffen."

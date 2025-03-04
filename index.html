@@ -345,12 +345,12 @@
         </div>
         <div class="row">
             <div class="col-md-2">
-                <a class="fancybox" rel="group" href="img/eng_pics/1.jpeg">
+                <a class="fancybox" rel="group" href="img/eng_pics/1.png">
                     <div class="img-wrap">
                         <div class="overlay">
                             <i class="fa fa-search"></i>
                         </div>
-                        <img src="img/eng_pics/1.jpeg" alt=""/>
+                        <img src="img/eng_pics/1.png" alt=""/>
                     </div>
                 </a>
             </div>
@@ -444,6 +444,26 @@
                     </div>
                 </a>
             </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/11.jpeg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/11.jpeg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/12.JPG">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/12.JPG" alt=""/>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
     <div class="container">
@@ -468,18 +488,23 @@
     <div class="text-center">
         <h5>Was ist, wenn es regnet?</h5>
         <p>
-            Sollte es regnen wir die Trauung und der Empfang in einem kleinem, aber liebevollem Nebenhäuschen stattfinden.
-            Das Pavillion ist wetterfest, somit ist das Dinner und die Party nicht gefärdet.
+            Sollte es regnen, wird die Trauung und der Empfang in einem kleinen, 
+            aber liebevoll gestalteten Nebenhäuschen stattfinden. 
+            Das Pavillon ist wetterfest, somit sind das Dinner und die Party nicht gefährdet.
         </p>
         <h5>Kann ich übernachten?</h5>
         <p>
-            Ja! Wir haben eine reservierte Anzahl an Zimmern. Damit es aber genügend Schlafplätze für jeden gibt, gebt uns 
-            bitte bei der Anmeldung Bescheid, ob ihr übernachten möchtet.
-            Am nächsten Morgen wird ein kleines Frühstück zubereitet.
+            Ja! Wir haben eine reservierte Anzahl an Zimmern. 
+            Damit es genügend Schlafplätze für alle gibt, gebt uns bitte bei der Anmeldung Bescheid, 
+            ob ihr übernachten möchtet. Am nächsten Morgen wird ein kleines Frühstück zubereitet.
         </p>
         <h5>Gibt es Parkplätze?</h5>
         <p>
             Das Anwesen bietet genügend kostenlose Parkplätze für alle Gäste.
+        </p>
+        <h5>Kann ich eine Begleitung mitnehmen?</h5>
+        <p>
+            Na klar! Bitte gebt das im Formular unten an.
         </p>
 
     </div>
@@ -488,7 +513,7 @@
 
 <section id="map" class="section-padding">
     <div class="text-center">
-        <h3>Wie komme ich zur Veranstalung?</h3>
+        <h3>Wie komme ich zur Veranstaltung?</h3>
         <p>Kein Problem!</p>
     </div>
     <div id="map-canvas"></div>
@@ -503,7 +528,7 @@
                 <div id="map-content" class="pointer-events-auto">
                     <div class="row">
                         <div class="col-md-6">
-                            <h5>Gut Althollz</h5>
+                            <h5>Gut Altholz</h5>
                             <p>Altholz 6, 94447 Plattling</p>
                         </div>
                         <div class="col-md-6">
@@ -522,7 +547,10 @@
         </div>
     </div>
 </section>
-
+<br>
+<br>
+<br>
+<br>
 <section class="rsvp text-center" id="rsvp">
 
     <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
@@ -540,11 +568,11 @@
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
-
+    
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                <h3>Auf was wartest du noch?</h3>
+                <h2>Auf was wartest du noch?</h2>
                 <p>Wir würden uns sehr freuen, wenn du vor vor dem 1. November 2025 antworten kannst.</p>
                 <form id="rsvp-form" class="rsvp-form"
                       action=""
@@ -564,20 +592,25 @@
                                                                      required>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-fire"></i><input name="extras" class=""
-                                                                  placeholder="Bedürfnisse? (Vegan / Glutenunverträglichkeit, ...)"
-                                                                  >
+                                                                  placeholder="Bedürfnisse? (Vegan / Glutenunverträglichkeit, ...)">
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-users"></i><input name="plusone" class=""
-                                                                     placeholder="+1? Ja / Nein"
+                                <i class="fa fa-users"></i><input name="plusone" class="" type="number" min="0" max="1"
+                                                                     placeholder="Begleitung? (0 / 1)"
                                                                      required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-users"></i><input name="children" class="" type="number" min="0"
+                                                                  placeholder="Kinder? (Anzahl)">
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
@@ -607,6 +640,7 @@
         <div class="row">
             <div class="col-sm-12 text-center content">
                 <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
+                <p>Made with <span class="fa fa-heart pulse2"></span> by <a href="https://github.com/cmmanu">cmmanu</a></p>
             </div>
         </div>
     </div>

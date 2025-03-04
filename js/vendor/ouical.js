@@ -97,7 +97,7 @@
     var generateCalendars = function(event) {
         return {
             google: calendarGenerators.google(event),
-            outlook: calendarGenerators.outlook(event)
+            ical: calendarGenerators.ical(event),
         };
     };
 
